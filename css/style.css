@@ -1,0 +1,534 @@
+
+/*=======================================*/
+/*===========Start Default Setup=========*/
+/*=======================================*/
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+   
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+/*=======================================*/
+/*===========End Default Setup===========*/
+/*=======================================*/
+
+
+
+/*=======================================*/
+/*=================Start Manu-ber========*/
+/*=======================================*/
+.manu-bar{
+    padding: 18px 0px 23px 0px;
+    width: 100%;
+    background-color: #02918c;
+}
+.nav-bar{
+    width: 1170px;
+    margin: auto;
+    }
+.nav{
+    display: flex;
+    width: 100%;
+}
+.logo{
+    width: 30%;
+    margin-left:0;
+    }
+
+}
+.menu{
+    width: 70%;
+}
+
+.myfolio-menu{ 
+    float:right;  
+}
+
+.myfolio-menu ul li{ 
+    display: inline-block;
+}
+.myfolio-menu li a{
+    display: block;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    margin-left: 80px;
+    font-size: 12px;
+    
+}
+
+/*=======================================*/
+/*=================End Manu-ber========*/
+/*=======================================*/
+
+
+
+/*=======================================*/
+/*============Start Banar Section========*/
+/*=======================================*/
+.banar{
+    background-image: url(../img/banar.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 212px 0;
+    
+}
+.banar-text{
+    text-align: center;
+  }
+.banar-text h2{
+    font-size: 30px;
+    color:#ffffff; 
+    letter-spacing: 4px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+.banar-text h1{
+    font-size: 68px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    
+}
+.banar-text p{
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    
+}
+.banar-text img{
+    margin: 50px 0;
+    
+}
+.banar-text button{
+    padding: 19px 42px;
+    letter-spacing: 4px;
+    color: #0b1016;
+    background-color: #cfc91d;
+    border: 0;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    
+}
+.banar-text button:hover{
+    background-color: transparent;
+    border: 1px solid #cfc91d;
+    color: #cfc91d; 
+    
+}
+/*=======================================*/
+/*===============End Banar Section======*/
+/*=======================================*/
+
+
+/*=======================================*/
+/*===============Start About Section======*/
+/*=======================================*/
+.about{
+    padding: 98px 0;
+    background-color: #fff;
+    width: 100%;
+}
+.about-part{
+    width:1170px;
+    margin: auto;
+}
+.about-text{
+    text-align: center;
+}
+.about-text h1{
+    font-size: 46px;
+     font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #02918c;
+}
+.about-text img{
+    margin: 31px 0;
+ 
+}
+.about-text p{
+    font-size: 16px;
+    color: #7e8287;
+    line-height: 41px;
+    padding: 0 150px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    
+}
+.about span{
+    font-size: 23px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: #7e8287;   
+}
+.about-icon-text{
+    display: flex;
+}
+.icon-text{
+    width: 24%;
+    text-align: center;
+    border-right: 1px solid #7e8287;
+    padding: 0 60px;
+}
+.icon-text-1{
+     border-right: 0px;
+    width: 24%;
+    text-align: center;
+    color: #02918c;
+    padding: 0 60px;
+  
+}
+.icon-text-1 h2{
+    color:#7e8287;
+    font-size: 16px;
+    color:#7e8287;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800; 
+    padding-top: 15px;
+    
+}
+.icon-text-1 p{
+    font-size: 11px;
+    color:#7e8287;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin: 31px 0;
+}
+
+
+.icon-text i{
+    height: 34px;
+    width: 34px;
+    color:#669999;
+}
+.icon-text h2{
+    font-size: 16px;
+    color:#7e8287;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+.icon-text p{
+    font-size: 11px;
+    color:#7e8287;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+     margin: 31px 0;
+}
+
+/*=======================================*/
+/*===============End About Section======*/
+/*=======================================*/
+
+
+/*=======================================*/
+/*===========Start Services Section======*/
+/*=======================================*/
+.serivces{
+    background-image: url(../img/services.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 72px 0 72px 0;
+}
+
+.services-part{
+    width: 1170px;
+    margin: auto;
+}
+.services-part h1{
+    font-size: 46px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #02918c;
+}
+
+.services-part img{
+   margin: 31px 0;
+}
+
+.services-part p{
+    font-size: 11px;
+    color:#7e8287;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin: 31px 0;
+    line-height: 30px;
+}
+.services-icon-text{
+    display: flex;  
+}
+.service-icon{
+    width: 15%;
+    text-align: left;
+    margin-right: 115px;
+}
+.service-icon i{
+    color:#669999;    
+}
+.service-icon h2{
+    margin-top: 20px;
+    font-size: 16px;
+    color:#7e8287;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+.service-icon p{
+    color:#7e8287;
+    font-size: 11px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+/*=======================================*/
+/*===========End Services Section======*/
+/*=======================================*/
+
+
+/*=======================================*/
+/*===========Start My work Section======*/
+/*=======================================*/
+.my-work{
+    padding: 98px 0;
+    background-color: #fff;
+    width: 100%;
+}
+.my-work-part{
+    width:1170px;
+    margin: auto;
+}
+.my-work-text{
+    text-align: center;
+}
+
+.my-work-text h1{
+    font-size: 46px;
+     font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #02918c;
+}
+.my-work-text img{
+    margin: 31px 0;
+}
+
+.my-work-text p{
+    color:#7e8287;
+    font-size: 11px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+
+/*=======================================*/
+/*===========End My work Section======*/
+/*=======================================*/
+
+/*=======================================*/
+/*===========Start galary  Section======*/
+/*=======================================*/
+
+.galary{}
+
+.container-galary{
+    width: 100%;
+    margin: auto;
+}
+.picture-area{
+    display: inline-block;
+}
+.picture-area img{
+   display: block;
+   width: 25%;
+   padding: 0;
+   float: left;
+}
+
+/*=======================================*/
+/*===========End galary  Section=========*/
+/*=======================================*/
+
+/*=======================================*/
+/*===========Start Contact Section========*/
+/*=======================================*/
+
+
+
+.contact{
+    padding: 98px 0;
+    background-color: #fff;
+    width: 100%;
+}
+.contact-part{
+    width:1170px;
+    margin: auto;
+}
+.contact-text{
+    text-align: center;
+}
+
+.contact-text h1{
+    font-size: 46px;
+     font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #02918c;
+}
+.contact-text img{
+    margin: 31px 0;
+}
+
+.contact-text p{
+    color:#7e8287;
+    font-size: 11px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 32px;
+}
+/*=======================================*/
+/*===========End Contact Section========*/
+/*=======================================*/
+
+
+/*=======================================*/
+/*===========Start Submit  Section=======*/
+/*=======================================*/
+
+.container{
+    width: 950px;
+    height: auto;
+    margin: auto;
+}
+.container::after,
+.container::before{
+    content: "";
+    clear: both;
+    display: table;
+}
+.Submit{
+    width: 100%;
+    background-color: #201f20;
+}
+
+.Submit-area{
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+.Submit-area #email{
+    width: 80%;
+    padding: 1rem;
+    border-top: none;
+    border-left:none;
+    border-right:none;
+    border-bottom-color: gray;
+    background: none;
+    color: #fff;
+    outline: none;   
+}
+.Submit-area #email::placeholder{
+    text-align: center;
+}
+.Submit-area #sms::placeholder{
+    text-align: center;
+}
+.Submit-area #sms{
+    width:100%;
+    padding: 1rem;
+    border-top: none;
+    border-left:none;
+    border-right:none;
+    border-bottom-color: gray;
+    background: none;
+    color: #fff;
+    outline: none;   
+}
+.Submit-area #email:hover:focus{
+  outline: none;
+}
+
+
+.Submit-area #sub{
+    padding: 19px 42px;
+    margin: 50px;
+    letter-spacing: 4px;
+    color: #0b1016;
+    background-color: #cfc91d;
+    border: 0;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    
+}
+.Submit-area #sub:hover{
+    background-color: transparent;
+    border: 1px solid #cfc91d;
+    color: #cfc91d; }
+    
+/*=======================================*/
+/*===========End Submit  Section=======*/
+/*=======================================*/
+
+
+
+   
+/*=======================================*/
+/*===========Start footer  Section=======*/
+/*=======================================*/
+
+.footer{
+    width: 100%;
+    background: #000;
+    padding: 15px 0;
+}
+
+
+.footer-area{
+    text-align: center;
+    color: gray;
+}
+
+/*=======================================*/
+/*===========End footer  Section=======*/
+/*=======================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
